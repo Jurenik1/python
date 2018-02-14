@@ -25,3 +25,9 @@ def datos (dni, nombre, *apellidos):
 	print "Tienes"+str(len(apellidos))+" apellidos"
 	for argumento in apellidos:
 		print argumento
+
+def iniciales(nombre, *apellidos):
+	ini=nombre[0]+"."
+	for x in apellidos:
+		ini=ini+x[0]+"."
+	return ini
