@@ -1,4 +1,4 @@
-
+#Ejemplo de lista
 
 lista= ("Uno", 1,10, "Pepito")
 print lista[2]
